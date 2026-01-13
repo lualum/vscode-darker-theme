@@ -1,0 +1,27 @@
+{
+  "name": "darker",
+  "displayName": "Darker",
+  "description": "A darker theme for Visual Studio Code.",
+  "version": "0.0.1",
+  "publisher": "lualum",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lualum/vscode-darker-theme.git"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Darker",
+        "uiTheme": "vs-dark",
+        "path": "./themes/darker-color-theme.json"
+      }
+    ]
+  }
+}
